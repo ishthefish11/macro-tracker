@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Nov 04 17:15:46 EDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018b-9c31-1d1e-00000301a7b8 
+on database directory memory:C:\Users\USER\Desktop\macro-tracker\6ffbf323-c74b-4c53-a795-3aa32677656b with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528 
+Loaded from file:/C:/Users/USER/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=21+35-LTS-2513
+user.dir=C:\Users\USER\Desktop\macro-tracker
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
