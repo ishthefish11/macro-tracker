@@ -2,8 +2,6 @@ package com.macrotracker.macrotracker.Food;
 
 import com.macrotracker.macrotracker.User.User;
 import jakarta.persistence.*;
-import org.hibernate.annotations.JdbcTypeCode;
-import org.hibernate.type.SqlTypes;
 
 import java.util.List;
 
@@ -14,7 +12,6 @@ public class Food {
     private Long foodId;
     private String name;
     private List<Double> nutrients; // index 0: protein | index 1: carbs | index 2: fats
-    @JdbcTypeCode(SqlTypes.JSON)
     @ManyToOne
     private User user;
 
