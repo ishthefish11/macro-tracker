@@ -15,9 +15,9 @@ public class Food {
     @ManyToOne
     private User user;
 
-    public Food(String name, Long userId) {
+    public Food(String name, User user) {
         this.name = name;
-        this.user = new User("", userId);
+        this.user = user;
         // add method for retrieving nutrients later when you implement the api
     }
 
