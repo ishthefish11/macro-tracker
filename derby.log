@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Tue Nov 14 16:48:08 EST 2023:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instance a816c00e-018b-cfce-5779-0000018fb6e8 
-on database directory memory:/Users/ismaelhussein/Desktop/macro-tracker-main/5e0b2b81-8100-4847-944d-e638cff45ba6 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
-Loaded from file:/Users/ismaelhussein/.m2/repository/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0.jar
+Tue Nov 14 16:51:29 EST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018b-cfd1-66fa-000001ec4f58 
+on database directory memory:/Users/ismaelhussein/Desktop/macro-tracker-main/c7ca8918-24c6-4e60-a8b1-41a157a9b99d with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+Loaded from file:/Users/ismaelhussein/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=21.0.1+12-LTS-29
 user.dir=/Users/ismaelhussein/Desktop/macro-tracker-main
