@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 @Entity
 public class Food {
     @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long foodId;
     private String name;
     private double[] nutrients = new double[3]; // index 0: protein | index 1: carbs | index 2: fats
