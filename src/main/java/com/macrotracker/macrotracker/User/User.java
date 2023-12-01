@@ -12,7 +12,6 @@ public class User {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long userId;
     private String username;
-    private HashMap<String, Double> macroGoals;
     private List<Food> foods;
 
     public User(String username) {
