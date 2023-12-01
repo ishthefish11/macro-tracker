@@ -3,17 +3,18 @@ package com.macrotracker.macrotracker.Food;
 import com.macrotracker.macrotracker.User.User;
 import jakarta.persistence.*;
 
+import java.util.Random;
+
 @Entity
 public class Food {
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long foodId;
     private String name;
-    private double[] nutrients = new double[3]; // index 0: protein | index 1: carbs | index 2: fats
     @ManyToOne
     private User user;
 
     public Food(String name, User user) {
+        this.foodId = new Random().nextLong(100000000);
         this.name = name;
         this.user = user;
         // add method for retrieving nutrients later when you implement the api
@@ -25,14 +26,6 @@ public class Food {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public double[] getNutrients() {
-        return nutrients;
-    }
-
-    public void setNutrients(double[] nutrients) {
-        this.nutrients = nutrients;
     }
 
     public User getUser() {
