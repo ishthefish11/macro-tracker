@@ -8,13 +8,13 @@ import java.util.Random;
 @Entity
 public class Food {
     @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long foodId;
     private String name;
     @ManyToOne
     private User user;
 
     public Food(String name, User user) {
-        this.foodId = new Random().nextLong(100000000);
         this.name = name;
         this.user = user;
         // add method for retrieving nutrients later when you implement the api
